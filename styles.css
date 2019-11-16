@@ -1,0 +1,20 @@
+.jumbotron {
+  background-image: url("./images/ty_segall_01.jpg");
+  background-size: cover;
+}
+
+.container {
+  max-width: 75%;
+}
+
+hr {
+  margin: 50px;
+}
+
+.img-thumbnail {
+  margin-bottom:10px;
+}
+
+h4 {
+  margin-bottom: 20px;
+}
