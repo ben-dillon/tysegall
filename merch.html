@@ -23,7 +23,7 @@
                 <a class="nav-link" href="./about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./recordings.html">Recordings</a>
+                <a class="nav-link" href="./music.html">Music</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./media.html">Media</a>
@@ -38,41 +38,155 @@
           </div>
         </nav>
 
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid" style="background-image: url(./images/ty_segall_11.jpg); background-position: center;">
           <div class="container">
             <h1 class="display-4 text-danger">MERCH</h1>
-            <p class="lead">Ty Segall</p>
+            <p class="lead text-danger">TY SEGALL</p>
           </div>
         </div>
 
         <div class="container">
           <div class="row">
             <div class="col-sm">
-              <img src="./images/merch_01.jpg" alt="Acoustic Tour Shirt" class="img-thumbnail">
+              <a data-toggle="modal" href="#myModal1"><img src="./images/merch_01.jpg" alt="Acoustic Tour Shirt" class="img-thumbnail"></a>
               <h5 class="text-center">Acoustic Tour Shirt</h5>
             </div>
             <div class="col-sm">
-              <img src="./images/merch_02.jpg" alt="Strawberry Man T-Shirt" class="img-thumbnail">
+              <a data-toggle="modal" href="#myModal2"><img src="./images/merch_02.jpg" alt="Strawberry Man T-Shirt" class="img-thumbnail"></a>
               <h5 class="text-center">Strawberry Man T-Shirt</h5>
             </div>
             <div class="col-sm">
-              <img src="./images/merch_03.jpg" alt="Goblin T-Shirt" class="img-thumbnail">
+              <a data-toggle="modal" href="#myModal3"><img src="./images/merch_03.jpg" alt="Goblin T-Shirt" class="img-thumbnail"></a>
               <h5 class="text-center">Goblin T-Shirt</h5>
             </div>
           </div>
 
           <div class="row">
             <div class="col-sm">
-              <img src="./images/album07.jpg" alt="Sleeper Vinyl" class="img-thumbnail">
-              <h5 class="text-center">Sleeper Vinyl</h5>
+              <a data-toggle="modal" href="#myModal4"><img src="./images/album07.jpg" alt="Sleeper LP (2013)" class="img-thumbnail"></a>
+              <h5 class="text-center">Sleeper LP (2013)</h5>
             </div>
             <div class="col-sm">
-              <img src="./images/album06.jpg" alt="Manipulator Vinyl" class="img-thumbnail">
-              <h5 class="text-center">Manipulator Vinyl</h5>
+              <a data-toggle="modal" href="#myModal5"><img src="./images/album06.jpg" alt="Manipulator LP (2011)" class="img-thumbnail"></a>
+              <h5 class="text-center">Manipulator LP (2011)</h5>
             </div>
             <div class="col-sm">
-              <img src="./images/merch_06.jpg" alt="Green Man Pin" class="img-thumbnail">
+              <a data-toggle="modal" href="#myModal6"><img src="./images/merch_06.jpg" alt="Green Man Pin" class="img-thumbnail"></a>
               <h5 class="text-center">Green Man Pin</h5>
+            </div>
+          </div>
+
+          <!-- Merch Modal 1-->
+          <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-danger" id="myModalLabel">Acoustic Tour T-Shirt</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./images/merch_01.jpg" class="img-fluid">
+                  <p>Recently unearthed box of leftover Acoustic Tour shirts featuring screen printed Rainbow Person art by Ty. Previously only available on the 2018 US acoustic tour. They will never be made again! Printed on 100 % Cotton Heritage brand shirts</p>
+                  <button type="button" class="btn btn-success btn-block">$30  |  ADD TO CART</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Merch Modal 2-->
+          <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-danger" id="myModalLabel">Strawberry Man T-Shirt</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./images/merch_02.jpg" class="img-fluid">
+                  <p>Black tee with screen printed album artwork from First Taste.</p>
+                  <button type="button" class="btn btn-success btn-block">$25  |  ADD TO CART</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Merch Modal 3-->
+          <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-danger" id="myModalLabel">Goblin T-Shirt (Black)</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./images/merch_03.jpg" class="img-fluid">
+                  <p>Printed on Bella Canvas unisex jersey short sleeve tees.</p>
+                  <button type="button" class="btn btn-success btn-block">$25  |  ADD TO CART</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Merch Modal 4-->
+          <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-danger" id="myModalLabel">Sleeper LP (2013)</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./images/album07.jpg" class="img-fluid mb-3">
+                  <p>Ty as Warrior of Mars, here to save Earth's soul with naught but his six-string resonating axe and freedom-inducing sleeping technique. Sleep with the Segall, dream your dreams!</p>
+                  <button type="button" class="btn btn-success btn-block">$20  |  ADD TO CART</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Merch Modal 5-->
+          <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-danger" id="myModalLabel">Manipulator LP (2011)</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./images/album06.jpg" class="img-fluid mb-3">
+                  <p>The clarion call/siren sound of his guitar....the helium-steamed ride of the vocals....track after track, releasing the thought that have been holding us down, all in the name of getting higher on pop songs. Why have one when you can have two? It's a big world, and MANIPULATOR has only begun to fight.</p>
+                  <button type="button" class="btn btn-success btn-block">$25  |  ADD TO CART</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Merch Modal 6-->
+          <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-danger" id="myModalLabel">First Taste Green Man Pin</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./images/merch_06.jpg" class="img-fluid mb-3">
+                  <p>Strawberry man's face from the inner gatefold of First Taste. 2" offset print pin.</p>
+                  <button type="button" class="btn btn-success btn-block">$10  |  ADD TO CART</button>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -108,10 +222,8 @@
 
       </footer>
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="js/functions.js"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
   </body>
 
